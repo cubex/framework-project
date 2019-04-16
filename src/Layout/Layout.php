@@ -1,9 +1,9 @@
 <?php
 namespace Project\Layout;
 
-use Cubex\Ui\UiElement;
+use Packaged\Ui\Element;
 
-class Layout extends UiElement
+class Layout extends Element
 {
   public function time()
   {

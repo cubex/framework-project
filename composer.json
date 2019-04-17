@@ -7,6 +7,7 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "cubex/framework": "~4.0",

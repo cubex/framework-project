@@ -1,4 +1,6 @@
 #!/usr/bin/env php
 <?php
 $loader = require_once('vendor/autoload.php');
-exit((new Cubex\Cubex(__DIR__, $loader))->cli());
+$cubex = new Cubex\Cubex(__DIR__, $loader);
+$project = new \Project\DefaultApplication($cubex);
+exit($cubex->cli());

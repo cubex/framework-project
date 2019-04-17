@@ -7,7 +7,6 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
-  "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "cubex/framework": "~4.0",
@@ -19,11 +18,5 @@
     "psr-4": {
       "Project\\": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:cubex/framework.git"
-    }
-  ]
+  }
 }

@@ -9,7 +9,7 @@
   },
   "prefer-stable": true,
   "require": {
-    "cubex/framework": "~4.0",
+    "cubex/framework": "4.0",
     "filp/whoops": "^2.3"
   },
   "require-dev": {

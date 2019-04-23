@@ -7,7 +7,7 @@ use Project\Layout\Layout;
 
 class DefaultController extends Controller
 {
-  protected function _getConditions()
+  protected function _generateRoutes()
   {
     yield self::_route("/hello/world", SubController::class);
     yield self::_route("/hello/{who}", "hello");

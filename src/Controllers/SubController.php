@@ -5,7 +5,7 @@ use Cubex\Controller\Controller;
 
 class SubController extends Controller
 {
-  protected function _getConditions()
+  protected function _generateRoutes()
   {
     yield self::_route("", "page");
     // Optionally, you can do:
